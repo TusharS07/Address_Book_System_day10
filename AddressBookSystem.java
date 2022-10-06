@@ -6,7 +6,6 @@ public class AddressBookSystem {
     public static void main(String[] args) {
         System.out.println("*_*_*_*_*_*_*_*_*_*_Welcome to Address Book_*_*_*_*_*_*_*_*_*_*");
         Contact contact = new Contact();
-        String name;
         int choice;
         Scanner sc = new Scanner(System.in);
         while (true) {
@@ -37,6 +36,5 @@ public class AddressBookSystem {
                     System.out.println();
             }
         }
-
     }
 }

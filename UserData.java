@@ -62,10 +62,4 @@ public class UserData {
 
     }
 
-    public void print() {
-        System.out.println( "First Name: " + firstName + " \nLast Name: " + lastName + " \nContact number: "+ phoneNumber + " \nEmail ID: " + emailID + " \nAddress: " + address + " \nCity Name: " + cityName + " \nState Name: " + stateName + " \nPostal Code(Zip Code): " + zipCode + "\n");
-    }
-
-
-
 }
