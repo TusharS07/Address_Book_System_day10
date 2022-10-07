@@ -108,6 +108,7 @@ public class Contact {
 
 
                 }
+                System.out.println("Updated Successfully...");
             }
             else
                 System.out.println("No record Found ");

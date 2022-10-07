@@ -9,7 +9,7 @@ public class AddressBookSystem {
         int choice;
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println(" Enter 1 to Add Contact \n Enter 2 to Update Contact \n Enter 3 To Delete Contact \n Enter 4 To Show Added Contacts ");
+            System.out.println(" Press 1 to Add Contact \n Press 2 to Update Contact \n Press 3 To Delete Contact \n Press 4 To Show Added Contacts ");
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
